@@ -3,6 +3,7 @@ import com.fiap.eca.api_marcacao_consultas.model.Usuario;
 import com.fiap.eca.api_marcacao_consultas.service.UsuarioService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import com.fiap.eca.api_marcacao_consultas.dto.LoginRequest;
 @RestController
 @RequestMapping("/usuarios")
 public class UsuarioController {
