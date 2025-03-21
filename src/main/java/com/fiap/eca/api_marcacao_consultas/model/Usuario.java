@@ -13,4 +13,3 @@ public class Usuario {
     private String senha;
     private String tipo; // Paciente, Médico ou Admin
 }
-

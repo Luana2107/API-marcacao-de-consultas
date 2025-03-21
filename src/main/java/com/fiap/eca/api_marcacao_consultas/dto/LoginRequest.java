@@ -2,9 +2,8 @@ package com.fiap.eca.api_marcacao_consultas.dto;
 
 import lombok.Data;
 
-@Data // Gera automaticamente getters, setters, toString, etc
+@Data
 public class LoginRequest {
     private String email;
     private String senha;
 }
-
